@@ -1,8 +1,5 @@
 from functions.write_file import write_file
 
-
-
-
 def main():
     working_dir = "calculator"
     print(write_file(working_dir, "lorem.txt", "wait, this isn't lorem ipsum"))
